@@ -1,4 +1,6 @@
-def trigonometria(a, co, ca):
+import math
+
+def trigonometria():
     sen30 = 0.5
     sen45 = 0.7071
     sen60 = 0.8660
@@ -9,7 +11,11 @@ def trigonometria(a, co, ca):
     tan45 = 1
     tan60 = 1.7321
 
-    pergunta = input('digite o que voce quer encontrar \n cateto oposto (co) \n cateto adjascente(ca) \n hipotenusa (a) \n \n ')
+    a = int(input('Digite o valor de a: '))
+    co = int(input('Digite o valor de co: '))
+    ca = int(input('Digite o valor de ca: '))
+
+    pergunta = input('\nDigite o que voce quer encontrar \n cateto oposto (co) \n cateto adjascente(ca) \n hipotenusa (a) \n \n ')
 
     # CATETO OPOSTO
 

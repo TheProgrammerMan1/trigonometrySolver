@@ -101,6 +101,12 @@ def trigonometria():
             elif pergunta1 == '60':
                 a = ca / cos60
                 print(f'O valor de a é {a:.2f}')
+    
+    pergunta0 = input('Mais uma vez y/n? ')
+    if pergunta0 == 'y':
+        trigonometria()
+    else:
+        return
 
 
 trigonometria()
